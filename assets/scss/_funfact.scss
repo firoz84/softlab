@@ -1,0 +1,59 @@
+/* ----------------------------------
+	funfact Section Styles
+ ------------------------------------ */
+ .funfact_wrapper{
+	position: relative;
+ }
+ .single_funfact_items{
+	background: #FFFFFF;
+	border-radius: 20px;
+	filter: drop-shadow(20px 24px 60px rgba(0, 0, 0, 0.04));
+	padding: 30px 20px;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	.icon{
+		width:65px;
+		height: 65px;
+		border-radius: 500px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img{
+			@include transition(0.4s);
+			transform: scale(1);
+		}
+		&.icon-1{
+			background: linear-gradient(153.63deg, #BCDDFF 3.43%, #738CF6 90.47%);
+			filter: drop-shadow(6px 6px 14px rgba(142, 170, 249, 0.4));
+		}
+		&.icon-2{
+			filter: drop-shadow(6px 6px 14px rgba(253, 117, 138, 0.4));
+			background: linear-gradient(153.63deg, #FEB49C 3.43%, #FD6B87 90.47%);
+		}
+		&.icon-3{
+			background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+			filter: drop-shadow(6px 6px 14px rgba(144, 225, 147, 0.4));
+		}
+		&.icon-4{
+			filter: drop-shadow(6px 6px 14px rgba(191, 180, 255, 0.4));
+			background: linear-gradient(153.63deg, #D3C7FF 3.43%, #6861FF 90.47%);
+		}
+	}
+	.content{
+		h3{
+			font-style: normal;
+			font-weight: 700;
+			font-size: 28px;
+			line-height: 120%;
+			margin-bottom: 8px;
+		}
+	}
+	&:hover{
+		.icon{
+			img{
+				transform: scale(1.2);
+			}
+		}
+	}
+ }

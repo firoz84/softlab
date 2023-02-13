@@ -1,0 +1,79 @@
+/* ------------------------------------------------------------------
+   Template Default Button, Input Styles - Value Change with Your's Need
+ -------------------------------------------------------------------- */
+.btnd {
+    display: inline-block;
+    @include transition(.4s);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;   
+}
+
+.btn {
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+}
+
+.theme-btn {
+    position: relative;
+    background: $secondary;
+    box-shadow: 5px 16px 20px rgba(111, 113, 255, 0.2);
+    border-radius: 10px;
+    z-index: 1;
+    color: $white;
+    @extend .btnd;    
+    padding: 15px 30px;
+    transition: all 0.4s ease-in-out;
+    &::before{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: -0%;
+        height: 100%;
+        content: '';
+        position: absolute;
+        background: $primary;
+        transition: all 0.4s ease;
+    }
+
+    &::after{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: -0%;
+        height: 100%;
+        content: '';
+        position: absolute;
+        background: $primary;
+        transition: all 0.4s ease;
+    }
+
+    @media (max-width: 480px) {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    i {
+        margin-left: 10px;
+    }
+
+    &:hover {
+        &::after{
+            width: 50%;
+        }
+        &::before{
+            width: 50%;
+        }
+        color: $white;
+    }
+
+}

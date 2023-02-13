@@ -1,0 +1,62 @@
+/*
+Template:SoftLab HTML Template
+Author: RRDevs
+Author URI: 
+Description: SoftLab Bootstrap 5 Template
+Version: 1.2.0
+*/
+
+// BASIC
+@import 'basic';
+
+// MIXIN
+@import 'variables';
+
+// TYPOGRAPHY
+@import 'typography';
+
+// MIX
+@import 'mix';
+
+// HELPER
+@import 'helper';
+
+// ANIMATION
+@import 'animation';
+
+// Button 
+@import 'btn';
+
+/* ----------------------------------
+    Template Section Styles
+ ------------------------------------*/
+
+// Menu - Header Section 
+@import 'header';
+
+// Hero Slide - Section 
+@import 'hero';
+
+// About - Section 
+@import 'about';
+
+// Call To Action - Section 
+@import 'cta';
+
+// funfact - Section 
+@import 'funfact';
+
+// Product - section
+@import 'product';
+
+// Service - section
+@import 'service';
+
+// Blog - section
+@import 'blog';
+
+// Testimonial - section
+@import 'testimonial';
+
+// footer - Section 
+@import 'footer';

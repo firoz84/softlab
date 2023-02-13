@@ -1,0 +1,35 @@
+<svg width="43" height="48" viewBox="0 0 43 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <!-- <style>
+      @keyframes pulse {
+        0% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+        70% {
+          -webkit-transform: scale(3);
+          transform: scale(3);
+        }
+        100% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+      } 
+
+    #dot-1{
+      animation: pulse 2s ease-in-out infinite;
+      -webkit-animation: pulse 2s ease-in-out infinite;
+      -webkit-transform-origin: center; -ms-transform-origin: center; transform-origin: center; transform-box: fill-box;
+    }
+
+    #dot-1 {
+      animation-delay: 1s;
+    }
+  </style>  -->
+<path id="dot-1" opacity="0.1" d="M4.97416 8.61599C1.89472 10.4062 7.2861e-07 13.6993 1.04001e-06 17.2613L2.21825e-06 30.7387C2.52965e-06 34.3007 1.89472 37.5938 4.97415 39.384L16.4858 46.0762C19.5948 47.8836 23.4349 47.8824 26.5428 46.0731L38.0312 39.385C41.1076 37.594 43 34.3026 43 30.7428L43 17.2572C43 13.6974 41.1076 10.406 38.0312 8.61498L26.5428 1.92689C23.4349 0.117578 19.5948 0.116396 16.4858 1.9238L4.97416 8.61599Z" fill="url(#paint0_linear_2013_3562)"/>
+<defs>
+<linearGradient id="paint0_linear_2013_3562" x1="33.2454" y1="46.8009" x2="7.88091" y2="27.4633" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#6E6DFF"/>
+</linearGradient>
+</defs>
+</svg>

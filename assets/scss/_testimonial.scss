@@ -1,0 +1,102 @@
+/* ----------------------------------
+	Testimonial Section Styles
+ ------------------------------------ */
+ .testimonial_wrapper{
+    position: relative;
+ }
+ .testimonial_items{
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 920px;
+    @media (max-width:992px) {
+        width: auto !important;
+    }
+    height: auto;
+    margin: 0 auto;
+    .content{
+        padding: 50px 30px;
+        .rating_author{
+            margin-bottom: 40px;
+            i{
+                font-size: 20px;
+                color: $info;
+                margin: 0px 3px;
+            }
+        }
+        h6{
+            max-width: 640px;
+            margin: 0 auto;
+            font-style: italic;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 120%;
+            color: #5C637E;
+            margin-bottom: 40px;
+        }
+        p{
+            max-width: 640px;
+            margin: 0 auto;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 120%;
+            color: #5C637E;
+            margin-bottom: 35px;
+        }
+        hr{
+            max-width: 640px;
+            margin: 0 auto;
+            height: 2px;
+            background-color: rgba(92, 99, 126, 0.1);
+        }
+        .author{
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            .author_img{
+                width: 60px;
+                height: 60px;
+                border-radius: 500px;
+                overflow: hidden;
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .author_name{
+                h6{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 120%;
+                    text-align: center;
+                    margin-bottom: 7px;
+                }
+                small{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 120%;
+                    color: #5C637E;
+                }
+            }
+        }
+    }
+ }
+ .shape_1{
+    position: absolute;
+    display: inline;
+    top: 25%;
+    left: 12%;
+    animation: rotate 8s ease-in infinite;
+ }
+ .shape_2{
+    display: inline-block;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    animation: rotate 8s ease-in infinite;
+ }

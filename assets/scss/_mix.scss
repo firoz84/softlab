@@ -1,0 +1,120 @@
+.section-padding{
+    padding: 120px 0px;
+    @media (max-width:1080px) {
+        padding: 100px 0px;
+    }
+    @media (max-width:768px) {
+        padding: 80px 0px;
+    }
+    @media (max-width:568px) {
+        padding: 50px 0px;
+    }
+}
+
+.section-top{
+    padding-top: 120px;
+    @media (max-width:1080px) {
+        padding-top: 100px;
+    }
+    @media (max-width:768px) {
+        padding-top: 80px;
+    }
+    @media (max-width:568px) {
+        padding-top: 50px;
+    }
+}
+
+.section-bottom{
+    padding-bottom: 120px;
+    @media (max-width:1080px) {
+        padding-bottom: 100px;
+    }
+    @media (max-width:768px) {
+        padding-bottom: 80px;
+    }
+    @media (max-width:568px) {
+        padding-bottom: 50px;
+    }
+}
+
+.section-title{
+    h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        color: #151826;
+        margin-bottom: 30px;
+        @media (max-width:768px) {
+            font-size: 40px;
+        }
+        @media (max-width:568px) {
+            font-size: 35px;
+        }
+    }
+    p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #5C637E;
+    }
+}
+
+
+.owl-nav{
+    display: inline-block !important;
+    .owl-prev{
+        position: absolute;
+        display: inline-block;
+        top: calc(100% - 60%);
+        right: 10%;
+        z-index: 1;
+        @media (max-width:992px) {
+            right: -5%;
+        }
+        @media (max-width:568px) {
+            display: none !important;
+        }
+    }
+    .owl-next{
+        position: absolute;
+        display: inline-block;
+        top: calc(100% - 60%);
+        left: 10%;
+        z-index: 1;
+        @media (max-width:992px) {
+            left: -5%;
+        }
+        @media (max-width:568px) {
+            display: none !important;
+        }
+    }
+    .owl-next,.owl-prev{
+        width: 80px;
+        height: 80px;
+        color: $white;
+        @media (max-width:992px) {
+            width: 50px;
+            height: 50px;
+            i{
+                font-size: 20px;
+            }
+        }
+        i{
+            font-size: 30px;
+            font-weight: 900;
+            line-height: -1px !important;
+        }
+        text-align: center;
+        border-radius: 500px;
+        border: 1px solid $white;
+        background: #FFFFFF !important;
+        filter: drop-shadow(16px 26px 68px rgba(142, 170, 249, 0.3));
+        @include transition(.3s);
+        &:hover{
+
+        }
+    }
+}

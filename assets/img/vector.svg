@@ -1,0 +1,35 @@
+<svg width="47" height="54" viewBox="0 0 47 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <!-- <style>
+      @keyframes pulse {
+        0% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+        70% {
+          -webkit-transform: scale(3);
+          transform: scale(3);
+        }
+        100% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+      } 
+
+    #dot-1{
+      animation: pulse 2s ease-in-out infinite;
+      -webkit-animation: pulse 2s ease-in-out infinite;
+      -webkit-transform-origin: center; -ms-transform-origin: center; transform-origin: center; transform-box: fill-box;
+    }
+
+    #dot-1 {
+      animation-delay: 1s;
+    }
+  </style>  -->
+<path id="dot-1" opacity="0.1" d="M42.1177 43.8997C45.1452 42.0963 47 38.8325 47 35.3085V18.6915C47 15.1675 45.1452 11.9037 42.1177 10.1002L28.6047 2.0507C25.4495 0.171201 21.518 0.172428 18.3639 2.0539L4.87696 10.0993C1.85248 11.9035 0 15.1656 0 18.6874V35.3126C0 38.8344 1.85248 42.0965 4.87696 43.9007L18.3639 51.9461C21.518 53.8276 25.4495 53.8288 28.6047 51.9493L42.1177 43.8997Z" fill="url(#paint0_linear_2013_3560)"/>
+<defs>
+<linearGradient id="paint0_linear_2013_3560" x1="10.662" y1="1.46296" x2="45.4046" y2="46.2962" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7788FF"/>
+<stop offset="1" stop-color="#6E6DFF"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,74 @@
+/* ----------------------------------
+	Product Section Styles
+ ------------------------------------ */
+
+ .our_product{
+    position: relative;
+    background: #F9FAFF;
+    .single_product{
+        padding: 40px 60px;
+        background-color: $white;
+        @include transition(0.4s);
+        filter: drop-shadow(20px 24px 60px rgba(0, 0, 0, 0.04));
+        border-radius: 20px;
+        .icons{
+            width: 80px;
+            height: auto;
+            margin: 0 auto;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .content{
+            h4{
+                margin-top: 30px;
+                margin-bottom: 25px;
+            }
+            a{
+                font-family: $body-font;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 150%;
+                text-align: center;
+                background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+               
+                i{
+                    @include transition(0.4s);
+                }
+                &:hover{
+                    i{
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+        &:hover{
+            filter: none;
+        }
+    }
+    .shape_element_1{
+		position: absolute;
+		bottom:5%;
+		left: calc(50% - 10px);
+		animation: pulse 2s ease-in-out infinite;
+	}
+    .shape_element_2{
+		position: absolute;
+		top:20%;
+		left: calc(10% - 10px);
+		animation: pulse 2s ease-in-out infinite;
+	}
+    .shape_element_3{
+		position: absolute;
+		top:5%;
+		left: calc(90% - 10px);
+		animation: pulse 2s ease-in-out infinite;
+	}
+ }
